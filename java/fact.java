@@ -4,7 +4,7 @@ public class fact {
 
     Scanner scanner = new Scanner(System.in);
 
-    System.out.println("Enter a number to find factorial: ");
+    System.out.print("Enter a number to find factorial: ");
     int number = scanner.nextInt();
     int fact = 1 ;
 
