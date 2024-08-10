@@ -6,6 +6,8 @@ public class posNeg {
     System.err.println("enter a number to check positive or negative: ");
     int number = scanner.nextInt();
 
+    scanner.close();
+
     if (number<0) {
       System.err.println("the given number is negative!!");      
     }
