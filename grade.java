@@ -5,6 +5,7 @@ public class grade {
 
     System.err.println("enter you mark: ");
     int mark = scanner.nextInt();
+    scanner.close();
 
     if (mark<50) {
       System.err.println("Sorry!! your grade is F");

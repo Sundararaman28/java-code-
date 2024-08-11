@@ -6,6 +6,8 @@ public class amstrong {
     Scanner scanner = new Scanner(System.in);
     int number = scanner.nextInt();
 
+    scanner.close();
+
     int originalNumber = number;
 
     int digits = String.valueOf(number).length();

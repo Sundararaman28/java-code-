@@ -6,6 +6,8 @@ public class evenOdd {
     System.err.println("enter a number: ");
     int number = scanner.nextInt();
 
+    scanner.close();
+
     if (number%2 == 0){
       System.err.println("given number is even");
     }
