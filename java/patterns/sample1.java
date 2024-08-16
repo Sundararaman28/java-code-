@@ -17,6 +17,7 @@ public class sample1 {
         System.out.print("*");
       }
       System.out.println("");
+
     }
   }
 }
