@@ -12,9 +12,11 @@ public class extractString {
         if (i<10) {
           mobile += passengers[j].charAt(i);
         }
+
         else if (i==10) {
           sex += passengers[j].charAt(i);
         }
+
         else if (i<13 && i>10) {
           age += passengers[j].charAt(i);
           Age = Integer.parseInt(age);
@@ -23,6 +25,7 @@ public class extractString {
             age = "";
           }
         }
+        
         else if (i<15 && i>13) {
           seat += passengers[j].charAt(i);
         }
