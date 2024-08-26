@@ -12,7 +12,7 @@ public class amstrong {
     int originalNumber = number;
 
     int digits = String.valueOf(number).length();
-    System.err.println(digits);
+    System.out.println(digits);
     int sum =0;
 
     while (number>0){
@@ -22,10 +22,10 @@ public class amstrong {
     }
 
     if (sum == originalNumber){
-      System.err.println("given nunmber is amstrong");
+      System.out.println("given nunmber is amstrong");
     }
     else{
-      System.err.println("given number is not amstrong number: ");
+      System.out.println("given number is not amstrong number: ");
     }
 
   }
