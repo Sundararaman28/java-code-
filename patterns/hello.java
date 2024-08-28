@@ -8,7 +8,7 @@ public class hello {
 	    int length=n.length();
 	    for (int i=0;i<length;i++){
 	        for (int j=0;j<length;j++){
-	            if (i==j || j==length-1-i){
+	            if (i==j || j+i==length-1){
 	                System.out.print(n.charAt(j));
 	            }else{
 	                System.out.print(" ");
