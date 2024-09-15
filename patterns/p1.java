@@ -7,7 +7,6 @@ public class p1 {
     
     System.out.println("enter a number: ");
     int n = scanner.nextInt();
-
     scanner.close();
 
 
