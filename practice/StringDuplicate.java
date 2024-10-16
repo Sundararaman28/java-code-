@@ -13,9 +13,9 @@ public class StringDuplicate {
     for (int i = 0; i<text.length();i++){
       char curent = text.charAt(i);
 
-      String currentChar = Character.toString(curent);
+      String currentChar = String.valueOf(curent);
 
-      if (result.contains(currentChar)) {
+      if (!result.contains(currentChar)) {
         result += currentChar;
       }
     }
