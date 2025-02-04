@@ -5,6 +5,8 @@ public class validparenthisis {
         Scanner sc = new Scanner(System.in);
         String s = sc.next();
         System.out.println(isValid(s));
+        sc.close();
+
 
     }
     public static boolean isValid(String str) {
@@ -30,6 +32,7 @@ public class validparenthisis {
             }
         }
         return stack.isEmpty(); 
+        
         
     }
 }

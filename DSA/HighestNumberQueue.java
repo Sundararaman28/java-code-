@@ -15,5 +15,6 @@ public class HighestNumberQueue {
             }
         }
         System.out.println("the highest number from the given series of the number is"+ numbers.peek());
+        sc.close();
     }
 }

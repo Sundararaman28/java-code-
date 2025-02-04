@@ -17,6 +17,7 @@ public class queueBasic1 {
         while(!numbers.isEmpty()){
             System.out.println(numbers.poll());
         }
+        sc.close();
 
     }
 }
