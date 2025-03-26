@@ -1,0 +1,8 @@
+string[] to int[] 
+    int[] arr = Arrays.stream(str).mapToInt(Integer::parseInt).toArray(); 
+
+char[] to int[] 
+    int[] arr = str.chars().map(Character::getNumericValue).toArray();
+need to complete this problem 
+https://leetcode.com/problems/design-a-number-container-system/description/?envType=daily-question&envId=2025-02-08 
+link for the question is above link. 
