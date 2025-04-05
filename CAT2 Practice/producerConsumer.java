@@ -1,4 +1,3 @@
-import java.util.*;
 class products{
     int i = 0;
     synchronized void add(int n){
