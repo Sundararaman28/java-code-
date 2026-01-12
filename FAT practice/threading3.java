@@ -1,4 +1,3 @@
-import java.util.*;
 
 class sharedPrinter{
     synchronized void print(String name, int page){

@@ -37,6 +37,8 @@ public class ArrayLis1 {
     grocery.add(fruitList);
 
     System.out.println(grocery);
+    System.out.println(drinks);
+    System.out.println(fruitList);
 
   }
 }
